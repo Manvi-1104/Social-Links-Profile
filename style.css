@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.big {
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.design{
+    background-color: rgb(26, 25, 25);
+    color: rgb(195, 253, 79);
+}
+h1{
+    background-color: rgb(26, 25, 25);
+    color: white;
+}
+.text{
+    background-color: rgb(26, 25, 25);
+    color: aliceblue;
+}
+.box{
+    
+    border-spacing: 10%;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(44, 43, 43);
+    color: rgb(255, 255, 255);
+    width: 60%;
+    margin: 6px 0;
+
+}
+img{
+    height: 150px;
+    border-radius: 50%;
+}
+
+.container{
+    height: 600px;
+    border-radius: 5%;
+    background-color: rgb(26, 25, 25);
+    text-align:center;
+    width: 450px;
+    /* margin-left: 40%;
+    margin-top: 10%; */
+    
+}
+
+.box:hover {
+    background-color:  rgb(195, 253, 79);
+    color: black;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: rgb(10, 8, 8);
+    margin-top: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
